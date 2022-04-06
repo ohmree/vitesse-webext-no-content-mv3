@@ -1,0 +1,19 @@
+html,
+body,
+#app {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'primeicons';
+  font-display: block;
+  src: url('/assets/primeicons.eot');
+  src: url('/assets/primeicons.eot?#iefix') format('embedded-opentype'),
+    url('/assets/primeicons.ttf') format('truetype'),
+    url('/assets/primeicons.woff') format('woff'),
+    url('/assets/primeicons.svg?#primeicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
