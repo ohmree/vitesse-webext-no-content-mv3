@@ -2,6 +2,10 @@
 
 This is the excellent [`vitesse-webext`](https://github.com/antfu/vitesse-webext/), updated to work with manifest V3 and without the content scripts.
 
+## Note about PrimeIcons
+Currently we copy the icon fonts to our own assets dir, since they fail to load otherwise.
+This needs to be fixed but I'm not sure how.
+
 ## Usage
 
 ### Folders
